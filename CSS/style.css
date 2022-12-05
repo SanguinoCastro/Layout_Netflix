@@ -1,0 +1,69 @@
+
+body{
+    overflow: hidden;
+    background-color: #141414;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+p{
+    display: flex;
+    align-self: center;
+    color: #e5e5e5;
+    margin-left: 1rem;
+}
+
+p:hover{
+    color: #bab3a2;
+}
+.netflix{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabezera{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 4.2rem;
+    align-items: center;
+}
+
+#logo{
+    width: 95px;
+    margin-left: 3.6rem;
+}
+
+.supizq{
+    display: flex;
+    background-color: darkred;
+    height: 100%;
+    width: 37rem;
+    margin-left: 1.55rem;
+}
+
+.menuizq{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: red;
+    height: 1rem;
+    width: 100%;
+    justify-content: space-between; 
+    font-size: 14px;
+    font-weight: 450;     
+}
+
+#ini{
+    font-weight: bold;
+    margin-left: 1.1rem;
+}
+
+#ini:hover{
+    color: #e5e5e5;
+}
