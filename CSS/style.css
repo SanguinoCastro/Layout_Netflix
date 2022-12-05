@@ -111,7 +111,6 @@ body{
 .cartelera{
     display: flex;
     flex-direction: column;
-    background-color: black;
     height: 100%;
     width: 100%;    
 }
@@ -119,7 +118,6 @@ body{
 .title{
     display: flex;
     align-items: center;
-    background-color: coral;
     height: 3.4rem;
     width: 100%;
     margin-top: 3.25rem;
@@ -135,7 +133,6 @@ body{
 .title2{
     display: flex;
     align-items: center;
-    background-color: coral;
     height: 2.5rem;
     width: 100%;
     margin-top: 3.25rem;
@@ -144,7 +141,6 @@ body{
 
 .objects{
     display: flex;
-    background-color: #bab3a2;
     height: 10.3rem;
     width: 100%;
     margin-bottom: 6.5px;
@@ -153,19 +149,19 @@ body{
 
 .objects2{
     display: flex;
-    background-color: #bab3a2;
     height: 2rem;
     width: 100%;
     margin-bottom: 9px;
-    overflow: hidden;
 }
 
 .cartel1{
+    display: flex;
     background-color: darkolivegreen;
     height: 100%;
     width: 18.3rem;
     margin-left: 3.78rem;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .cartel{
@@ -173,7 +169,8 @@ body{
     height: 100%;
     width: 18.13rem;
     margin-left: 0.46rem;
-    border-radius: 5px; 
+    border-radius: 5px;
+    overflow: hidden; 
 }
 
 .self_cartel{
@@ -182,4 +179,13 @@ body{
     width: 4.5rem;
     margin-left: 0.46rem;
     border-radius: 5px;
+    overflow: hidden;
+}
+
+.imgcartl{
+    height: 100%;
+}
+
+.imgcartl1{
+    width: 100%;
 }
