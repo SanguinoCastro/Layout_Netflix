@@ -112,7 +112,8 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;    
+    width: 100%;
+    margin-top: 0.8rem;    
 }
 
 .title{
@@ -155,8 +156,6 @@ body{
 }
 
 .cartel1{
-    display: flex;
-    background-color: darkolivegreen;
     height: 100%;
     width: 18.3rem;
     margin-left: 3.78rem;
@@ -165,7 +164,6 @@ body{
 }
 
 .cartel{
-    background-color: darkolivegreen;
     height: 100%;
     width: 18.13rem;
     margin-left: 0.46rem;
@@ -174,7 +172,6 @@ body{
 }
 
 .self_cartel{
-    background-color: darkolivegreen;
     height: 100%;
     width: 4.5rem;
     margin-left: 0.46rem;
@@ -188,4 +185,40 @@ body{
 
 .imgcartl1{
     width: 100%;
+}
+
+#cuphead{
+    background-image: url(../Imagenes/cartelera/cuphead.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cuphead:hover{
+    background-image: url(../Imagenes/cartelera/cupheadhov.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#korra{
+    background-image: url(../Imagenes/cartelera/korra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#korra:hover{
+    background-image: url(../Imagenes/cartelera/korrahov.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#violet{
+    background-image: url(../Imagenes/cartelera/violet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#violet:hover{
+    background-image: url(../Imagenes/cartelera/violethov.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
